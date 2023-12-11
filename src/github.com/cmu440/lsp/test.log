@@ -1,0 +1,25 @@
+=== TestClientClose2: Client Close correctness (3 clients, 10 msgs/client, 15 max epochs, 1 window size, 1 max unacked messages)
+2023/10/06 16:33:48 close connid: 1
+2023/10/06 16:33:48 close connid: 2
+2023/10/06 16:33:48 Read Error:  read udp 127.0.0.1:61324->127.0.0.1:17596: use of closed network connection
+2023/10/06 16:33:48 close connid: 3
+2023/10/06 16:33:48 Read Error:  read udp 127.0.0.1:62797->127.0.0.1:17596: use of closed network connection
+2023/10/06 16:33:48 Read Error:  read udp 127.0.0.1:52830->127.0.0.1:17596: use of closed network connection
+2023/10/06 16:33:51 exceed epoch limit in sever
+2023/10/06 16:33:51 exceed epoch limit in sever
+2023/10/06 16:33:51 exceed epoch limit in sever
+2023/10/06 16:33:51 why i am not here
+2023/10/06 16:33:51 i returned
+2023/10/06 16:33:51 i returned
+2023/10/06 16:33:51 i returned
+2023/10/06 16:33:51 i returned
+2023/10/06 16:33:51 i returned
+2023/10/06 16:33:51 i returned
+2023/10/06 16:33:51 i returned
+2023/10/06 16:33:51 call close1.........
+2023/10/06 16:33:51 call close2.........
+2023/10/06 16:33:51 call close3.........
+2023/10/06 16:33:51 call close4.........
+2023/10/06 16:33:51 i returned
+PASS
+ok  	github.com/cmu440/lsp	3.635s
