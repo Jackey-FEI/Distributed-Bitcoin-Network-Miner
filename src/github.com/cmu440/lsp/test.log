@@ -1,0 +1,25 @@
+2023/10/04 18:26:01 server get message with type: 0 and seqnum: 234
+2023/10/04 18:26:01 server do write message with type: 2 and seqnum: 234
+2023/10/04 18:26:01 established connection with 1
+=== TestBasic1: Short client/server interaction (1 clients, 3 msgs/client, 0% drop rate, 1 window size, 1 max unacked messages)
+2023/10/04 18:26:01 client 1 finish writing: 235
+2023/10/04 18:26:01 server get message with type: 1 and seqnum: 235
+2023/10/04 18:26:01 server do write message with type: 2 and seqnum: 235
+2023/10/04 18:26:01 server do write message with type: 1 and seqnum: 1
+2023/10/04 18:26:01 client 1 do get message with msgtype2 with seqnum235
+2023/10/04 18:26:01 client 1 do get message with msgtype1 with seqnum1
+2023/10/04 18:26:01 1: i get seqnum: 235 curleft:235
+2023/10/04 18:26:01 am i here??
+2023/10/04 18:26:01 my current readseqnun: 234 with msgseqnum 1
+2023/10/04 18:26:01 server get message with type: 2 and seqnum: 1
+--- FAIL: TestBasic1 (2.00s)
+    lsp1_test.go:80: Started server on port 6661.
+    lsp1_test.go:93: Started 1 clients.
+    lsp1_test.go:139: Client 1 wrote message 31 (1 of 3).
+    lsp1_test.go:110: Server read message 31 from client 1.
+    lsp1_test.go:112: Server writing 31.
+    lsp1_test.go:182: Test timed out after 2.00 secs
+FAIL
+2023/10/04 18:26:03 server get message with type: 2 and seqnum: 0
+exit status 1
+FAIL	github.com/cmu440/lsp	2.171s
