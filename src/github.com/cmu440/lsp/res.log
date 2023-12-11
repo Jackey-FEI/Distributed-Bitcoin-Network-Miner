@@ -1,0 +1,95 @@
+2023/10/02 18:18:20 client get heartbeat
+2023/10/02 18:18:20 established connection with 1
+=== TestWindow1: 1 client, max capacity (1 clients, 2 msgs/client, 1 window size, 50 max unacked messages, 5 max epochs)
+2023/10/02 18:18:20 ====server write drop 100=========
+2023/10/02 18:18:20 server do get message with msgtype1 with seqnum1
+2023/10/02 18:18:20 ==========7==============
+2023/10/02 18:18:20 ====server write drop 0=========
+2023/10/02 18:18:21 server hengding you222
+2023/10/02 18:18:21 hendingyou 111
+2023/10/02 18:18:21 client get heartbeat
+2023/10/02 18:18:21 client hengding you222
+2023/10/02 18:18:21 client hengding you33333
+2023/10/02 18:18:21 client get heartbeat
+2023/10/02 18:18:21 hendingyou 111
+2023/10/02 18:18:21 server hengding you222
+2023/10/02 18:18:21 client get heartbeat
+2023/10/02 18:18:21 client hengding you33333
+2023/10/02 18:18:21 client hengding you222
+2023/10/02 18:18:21 client: 1 resend message!: message sequence num 1
+2023/10/02 18:18:21 server do get message with msgtype1 with seqnum1
+2023/10/02 18:18:21 client get heartbeat
+2023/10/02 18:18:21 client 1 do get message with msgtype2 with seqnum1
+2023/10/02 18:18:21 server do get message with msgtype1 with seqnum2
+2023/10/02 18:18:21 client 1 do get message with msgtype2 with seqnum2
+2023/10/02 18:18:21 ==========777==============
+2023/10/02 18:18:21 ==========8==============
+2023/10/02 18:18:21 ====client write drop 100=========
+2023/10/02 18:18:21 ==========99==============
+2023/10/02 18:18:21 ==========10==============
+2023/10/02 18:18:21 server on connid: 1 : I have  curwriteseq: 1 with curacknum: 0 withrightwindowside: 1
+2023/10/02 18:18:21 zhijie fasong
+2023/10/02 18:18:21 server on connid: 1 : I have  curwriteseq: 2 with curacknum: 0 withrightwindowside: 1
+2023/10/02 18:18:21 fangjipending
+2023/10/02 18:18:21 keyi resend l 
+2023/10/02 18:18:21 client 1 do get message with msgtype1 with seqnum1
+2023/10/02 18:18:21 ==========11==============
+2023/10/02 18:18:21 ====client write drop 0=========
+2023/10/02 18:18:22 hendingyou 111
+2023/10/02 18:18:22 server hengding you222
+2023/10/02 18:18:22 
+2023/10/02 18:18:22 never???
+2023/10/02 18:18:22 server: resend message!: message sequence num 1
+2023/10/02 18:18:22 client get heartbeat
+2023/10/02 18:18:22 client hengding you33333
+2023/10/02 18:18:22 client get heartbeat
+2023/10/02 18:18:22 client hengding you222
+2023/10/02 18:18:22 hendingyou 111
+2023/10/02 18:18:22 server hengding you222
+2023/10/02 18:18:22 
+2023/10/02 18:18:22 never???
+2023/10/02 18:18:22 server: resend message!: message sequence num 1
+2023/10/02 18:18:22 client get heartbeat
+2023/10/02 18:18:22 client hengding you33333
+2023/10/02 18:18:22 client get heartbeat
+2023/10/02 18:18:22 client hengding you222
+2023/10/02 18:18:23 hendingyou 111
+2023/10/02 18:18:23 server hengding you222
+2023/10/02 18:18:23 
+2023/10/02 18:18:23 never???
+2023/10/02 18:18:23 server: resend message!: message sequence num 1
+2023/10/02 18:18:23 client get heartbeat
+--- FAIL: TestWindow1 (2.54s)
+    lsp2_test.go:87: Started server on port 8302.
+    lsp2_test.go:105: Server write drop percent set to 100%
+    lsp2_test.go:263: Waiting for clients...
+    lsp2_test.go:135: Client 1 streaming 2 messages to the server.
+    lsp2_test.go:213: Server reading 2 total messages from clients.
+    lsp2_test.go:150: Client 1 finished streaming 2 messages to the server.
+    lsp2_test.go:276: Done waiting for clients.
+    lsp2_test.go:248: Waiting for server...
+    lsp2_test.go:230: Server read message 1 of 2 from clients: 2319857484777861083
+    lsp2_test.go:259: Done waiting for server.
+    lsp2_test.go:297: Server received expected messages from clients.
+    lsp2_test.go:105: Server write drop percent set to 0%
+    lsp2_test.go:248: Waiting for server...
+    lsp2_test.go:230: Server read message 2 of 2 from clients: 8489282705321304436
+    lsp2_test.go:244: Server finished reading 2 total messages from clients.
+    lsp2_test.go:259: Done waiting for server.
+    lsp2_test.go:297: Server received expected messages from clients.
+    lsp2_test.go:110: Client write drop percent set to 100%
+    lsp2_test.go:248: Waiting for server...
+    lsp2_test.go:155: Server streaming 2 messages to client 1.
+    lsp2_test.go:175: Client 1 reading 2 messages from server.
+    lsp2_test.go:170: Server finished streaming 2 messages to client 1.
+    lsp2_test.go:259: Done waiting for server.
+    lsp2_test.go:263: Waiting for clients...
+    lsp2_test.go:192: Client 1 read message 1 of 2 from server: 5308118621310152993
+    lsp2_test.go:276: Done waiting for clients.
+    lsp2_test.go:318: Clients received expected messages from server.
+    lsp2_test.go:110: Client write drop percent set to 0%
+    lsp2_test.go:263: Waiting for clients...
+    lsp2_test.go:268: Test timed out after 2.50 secs
+FAIL
+exit status 1
+FAIL	github.com/cmu440/lsp	2.767s
