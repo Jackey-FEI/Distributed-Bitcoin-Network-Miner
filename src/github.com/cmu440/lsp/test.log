@@ -1,0 +1,196 @@
+2023/10/02 23:55:36 server do get message with msgtype0 with seqnum0
+2023/10/02 23:55:36 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:36 established connection with 1
+=== TestMaxUnackedMessages4: 1 client, window and max unacked msgs (1 clients, 20 msgs/client, 20 window size, 10 max unacked messages, 10 max epochs)
+2023/10/02 23:55:36 client 1 finish writing: 2
+2023/10/02 23:55:36 client 1 finish writing: 1
+2023/10/02 23:55:36 client 1 finish writing: 4
+2023/10/02 23:55:36 client 1 finish writing: 5
+2023/10/02 23:55:36 server do get message with msgtype1 with seqnum2
+2023/10/02 23:55:36 client 1 finish writing: 3
+2023/10/02 23:55:36 In msgData: server get messgae seqnum: 2 with cureadsqenum: 0 and pqreadtopseqnum: 2
+2023/10/02 23:55:36 In msgData: server get messgae seqnum: 1 with cureadsqenum: 0 and pqreadtopseqnum: 1
+2023/10/02 23:55:36 server finished writing to client: 1with type: 2 and seqnun: 1
+2023/10/02 23:55:36 server do get message with msgtype1 with seqnum1
+2023/10/02 23:55:36 server finished writing to client: 1with type: 2 and seqnun: 2
+2023/10/02 23:55:36 server finished writing to client: 1with type: 2 and seqnun: 4
+2023/10/02 23:55:37 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:38 client: 1resend message: [Data 1 1 11479 1299135181418785640]
+2023/10/02 23:55:38 client: 1resend message: [Data 1 2 7635 6226298395207808879]
+2023/10/02 23:55:38 client: 1resend message: [Data 1 3 6870 3589595283110948956]
+2023/10/02 23:55:38 client: 1resend message: [Data 1 4 5850 7548254826951378573]
+2023/10/02 23:55:38 client: 1resend message: [Data 1 5 11979 8681476042905531695]
+2023/10/02 23:55:38 client 1 finish writing: 6
+2023/10/02 23:55:38 client 1 finish writing: 7
+2023/10/02 23:55:38 client 1 finish writing: 8
+2023/10/02 23:55:38 client 1 finish writing: 9
+2023/10/02 23:55:38 client 1 finish writing: 10
+2023/10/02 23:55:39 server get message seqnum1 from client: 1
+2023/10/02 23:55:39 server get message seqnum2 from client: 1
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 4 with cureadsqenum: 2 and pqreadtopseqnum: 4
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum4
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum5
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 5 with cureadsqenum: 2 and pqreadtopseqnum: 4
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 3 with cureadsqenum: 2 and pqreadtopseqnum: 3
+2023/10/02 23:55:39 server get message seqnum3 from client: 1
+2023/10/02 23:55:39 server get message seqnum4 from client: 1
+2023/10/02 23:55:39 server get message seqnum5 from client: 1
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 3
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 5
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum3
+2023/10/02 23:55:39 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum1
+2023/10/02 23:55:39 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 1
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum2
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 2
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum3
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 4
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 3
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum4
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum5
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 5
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 6
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum6
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 6 with cureadsqenum: 5 and pqreadtopseqnum: 6
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 7 with cureadsqenum: 6 and pqreadtopseqnum: 7
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum7
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 7
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum8
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 8
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 8 with cureadsqenum: 7 and pqreadtopseqnum: 8
+2023/10/02 23:55:39 server get message seqnum6 from client: 1
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 9
+2023/10/02 23:55:39 server get message seqnum7 from client: 1
+2023/10/02 23:55:39 server get message seqnum8 from client: 1
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 9 with cureadsqenum: 8 and pqreadtopseqnum: 9
+2023/10/02 23:55:39 server get message seqnum9 from client: 1
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum9
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum10
+2023/10/02 23:55:39 In msgData: server get messgae seqnum: 10 with cureadsqenum: 9 and pqreadtopseqnum: 10
+2023/10/02 23:55:39 server get message seqnum10 from client: 1
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 10
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:39 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:39 client: 1resend message: [Data 1 4 5850 7548254826951378573]
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum4
+2023/10/02 23:55:39 client: 1resend message: [Data 1 5 11979 8681476042905531695]
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 4
+2023/10/02 23:55:39 client: 1resend message: [Data 1 10 11206 4532903870197081799]
+2023/10/02 23:55:39 client: 1resend message: [Data 1 1 11479 1299135181418785640]
+2023/10/02 23:55:39 client: 1resend message: [Data 1 2 7635 6226298395207808879]
+2023/10/02 23:55:39 client: 1resend message: [Data 1 3 6870 3589595283110948956]
+2023/10/02 23:55:39 client: 1resend message: [Data 1 6 10720 3727230951706930701]
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 5
+2023/10/02 23:55:39 client: 1resend message: [Data 1 7 9433 1175150478463265954]
+2023/10/02 23:55:39 client: 1resend message: [Data 1 8 9429 8302185415983455924]
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum5
+2023/10/02 23:55:39 client: 1resend message: [Data 1 9 12499 3179612000104386897]
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum10
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 10
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 1
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum1
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum2
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum3
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 2
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum6
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 3
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 6
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum7
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 7
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum8
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 8
+2023/10/02 23:55:39 server do get message with msgtype1 with seqnum9
+2023/10/02 23:55:39 server finished writing to client: 1with type: 2 and seqnun: 9
+2023/10/02 23:55:40 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:40 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:41 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:41 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:42 client: 1resend message: [Data 1 8 9429 8302185415983455924]
+2023/10/02 23:55:42 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:42 client: 1resend message: [Data 1 9 12499 3179612000104386897]
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum8
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum9
+2023/10/02 23:55:42 client: 1resend message: [Data 1 1 11479 1299135181418785640]
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 8
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum1
+2023/10/02 23:55:42 client: 1resend message: [Data 1 2 7635 6226298395207808879]
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum2
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 9
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 1
+2023/10/02 23:55:42 client: 1resend message: [Data 1 3 6870 3589595283110948956]
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum3
+2023/10/02 23:55:42 client: 1resend message: [Data 1 6 10720 3727230951706930701]
+2023/10/02 23:55:42 client: 1resend message: [Data 1 7 9433 1175150478463265954]
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum6
+2023/10/02 23:55:42 client: 1resend message: [Data 1 4 5850 7548254826951378573]
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum7
+2023/10/02 23:55:42 client: 1resend message: [Data 1 5 11979 8681476042905531695]
+2023/10/02 23:55:42 client: 1resend message: [Data 1 10 11206 4532903870197081799]
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 4
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 3
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 2
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 7
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 6
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum4
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum5
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 10
+2023/10/02 23:55:42 server do get message with msgtype1 with seqnum10
+2023/10/02 23:55:42 server finished writing to client: 1with type: 2 and seqnun: 5
+2023/10/02 23:55:43 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:43 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:44 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:44 client: 1resend message: [Data 1 8 9429 8302185415983455924]
+2023/10/02 23:55:44 client: 1resend message: [Data 1 9 12499 3179612000104386897]
+2023/10/02 23:55:44 client: 1resend message: [Data 1 6 10720 3727230951706930701]
+2023/10/02 23:55:44 server do get message with msgtype2 with seqnum0
+2023/10/02 23:55:44 client: 1resend message: [Data 1 7 9433 1175150478463265954]
+2023/10/02 23:55:44 server do get message with msgtype1 with seqnum8
+2023/10/02 23:55:44 client: 1resend message: [Data 1 10 11206 4532903870197081799]
+2023/10/02 23:55:44 server do get message with msgtype1 with seqnum9
+2023/10/02 23:55:44 server finished writing to client: 1with type: 2 and seqnun: 8
+2023/10/02 23:55:44 server do get message with msgtype1 with seqnum6
+2023/10/02 23:55:44 server finished writing to client: 1with type: 2 and seqnun: 9
+2023/10/02 23:55:44 server do get message with msgtype1 with seqnum7
+2023/10/02 23:55:44 server finished writing to client: 1with type: 2 and seqnun: 6
+2023/10/02 23:55:44 server do get message with msgtype1 with seqnum10
+2023/10/02 23:55:44 server finished writing to client: 1with type: 2 and seqnun: 7
+2023/10/02 23:55:44 server finished writing to client: 1with type: 2 and seqnun: 10
+2023/10/02 23:55:45 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/02 23:55:45 server do get message with msgtype2 with seqnum0
+--- FAIL: TestMaxUnackedMessages4 (10.00s)
+    lsp2_test.go:86: Started server on port 42398.
+    lsp2_test.go:503: Testing client to server...
+    lsp2_test.go:104: Server write drop percent set to 100%
+    lsp2_test.go:262: Waiting for clients...
+    lsp2_test.go:134: Client 1 streaming 5 messages to the server.
+    lsp2_test.go:149: Client 1 finished streaming 5 messages to the server.
+    lsp2_test.go:275: Done waiting for clients.
+    lsp2_test.go:104: Server write drop percent set to 0%
+    lsp2_test.go:262: Waiting for clients...
+    lsp2_test.go:134: Client 1 streaming 5 messages to the server.
+    lsp2_test.go:149: Client 1 finished streaming 5 messages to the server.
+    lsp2_test.go:275: Done waiting for clients.
+    lsp2_test.go:104: Server write drop percent set to 100%
+    lsp2_test.go:262: Waiting for clients...
+    lsp2_test.go:134: Client 1 streaming 10 messages to the server.
+    lsp2_test.go:149: Client 1 finished streaming 10 messages to the server.
+    lsp2_test.go:275: Done waiting for clients.
+    lsp2_test.go:247: Waiting for server...
+    lsp2_test.go:212: Server reading 20 total messages from clients.
+    lsp2_test.go:229: Server read message 1 of 20 from clients: 1299135181418785640
+    lsp2_test.go:229: Server read message 2 of 20 from clients: 6226298395207808879
+    lsp2_test.go:229: Server read message 3 of 20 from clients: 3589595283110948956
+    lsp2_test.go:229: Server read message 4 of 20 from clients: 7548254826951378573
+    lsp2_test.go:229: Server read message 5 of 20 from clients: 8681476042905531695
+    lsp2_test.go:229: Server read message 6 of 20 from clients: 3727230951706930701
+    lsp2_test.go:229: Server read message 7 of 20 from clients: 1175150478463265954
+    lsp2_test.go:229: Server read message 8 of 20 from clients: 8302185415983455924
+    lsp2_test.go:229: Server read message 9 of 20 from clients: 3179612000104386897
+    lsp2_test.go:229: Server read message 10 of 20 from clients: 4532903870197081799
+    lsp2_test.go:251: Test timed out after 10.00 secs
+FAIL
+exit status 1
+FAIL	github.com/cmu440/lsp	10.177s

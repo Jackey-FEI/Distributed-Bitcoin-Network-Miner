@@ -1,0 +1,1039 @@
+2023/10/05 17:15:38 server do get message with msgtype0 with seqnum251
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 251
+2023/10/05 17:15:38 established connection with 1
+2023/10/05 17:15:38 server do get message with msgtype0 with seqnum19
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 19
+2023/10/05 17:15:38 established connection with 2
+2023/10/05 17:15:38 server do get message with msgtype0 with seqnum234
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 234
+2023/10/05 17:15:38 established connection with 3
+=== TestRobust2: Three clients, some packet dropping (3 clients, 15 msgs/client, 20% drop rate, 1 window size, 1 max unacked messages)
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum252
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 252 with cureadsqenum: 251 and pqreadtopseqnum: 252
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 235 with cureadsqenum: 234 and pqreadtopseqnum: 235
+2023/10/05 17:15:38 server get message seqnum252 from client: 1
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 252
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 235
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum235
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum235
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 252 with curacknum: 251 withrightwindowside: 252
+2023/10/05 17:15:38 server get message seqnum235 from client: 3
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum252
+2023/10/05 17:15:38 3: i get seqnum: 235 curleft:235
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 235 with curacknum: 234 withrightwindowside: 235
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 252
+2023/10/05 17:15:38 1: i get seqnum: 252 curleft:252
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum252
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 235
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum252
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum235
+2023/10/05 17:15:38 server receive ack message with seqnum: 252 and client num: 1
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 253 with cureadsqenum: 252 and pqreadtopseqnum: 253
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum253
+2023/10/05 17:15:38 server get message seqnum253 from client: 1
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 253 with curacknum: 252 withrightwindowside: 253
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 253
+2023/10/05 17:15:38 server receive ack message with seqnum: 235 and client num: 3
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum235
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum253
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 253
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum236
+2023/10/05 17:15:38 1: i get seqnum: 253 curleft:253
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 236 with cureadsqenum: 235 and pqreadtopseqnum: 236
+2023/10/05 17:15:38 server get message seqnum236 from client: 3
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 236
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 236 with curacknum: 235 withrightwindowside: 236
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 236
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum236
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum236
+2023/10/05 17:15:38 server receive ack message with seqnum: 236 and client num: 3
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum253
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 1resend message: [Data 1 254 52423 72]
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum254
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 254 with cureadsqenum: 253 and pqreadtopseqnum: 254
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 254
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server get message seqnum254 from client: 1
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum254
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 254 with curacknum: 252 withrightwindowside: 253
+2023/10/05 17:15:38 1: i get seqnum: 254 curleft:254
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 2resend message: [Data 2 20 52910 91]
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum20
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 20 with cureadsqenum: 19 and pqreadtopseqnum: 20
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server get message seqnum20 from client: 2
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 20
+2023/10/05 17:15:38 server on connid: 2 : I have  curwriteseq: 20 with curacknum: 19 withrightwindowside: 20
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum20
+2023/10/05 17:15:38 2: i get seqnum: 20 curleft:20
+2023/10/05 17:15:38 server finished writing to client: 2with type: 1 and seqnun: 20
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum20
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum21
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 21 with cureadsqenum: 20 and pqreadtopseqnum: 21
+2023/10/05 17:15:38 server get message seqnum21 from client: 2
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 21
+2023/10/05 17:15:38 server on connid: 2 : I have  curwriteseq: 21 with curacknum: 19 withrightwindowside: 20
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum21
+2023/10/05 17:15:38 2: i get seqnum: 21 curleft:21
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 3resend message: [Data 3 236 50901 98]
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum236
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 236
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum236
+2023/10/05 17:15:38 3: i get seqnum: 236 curleft:236
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum237
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 237 with cureadsqenum: 236 and pqreadtopseqnum: 237
+2023/10/05 17:15:38 server get message seqnum237 from client: 3
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 237
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 237 with curacknum: 236 withrightwindowside: 237
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 237
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum237
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum237
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum253
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum253
+2023/10/05 17:15:38 server receive ack message with seqnum: 253 and client num: 1
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum20
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 254
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum20
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum254
+2023/10/05 17:15:38 server receive ack message with seqnum: 20 and client num: 2
+2023/10/05 17:15:38 server finished writing to client: 2with type: 1 and seqnun: 21
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum254
+2023/10/05 17:15:38 server receive ack message with seqnum: 254 and client num: 1
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum255
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 255 with cureadsqenum: 254 and pqreadtopseqnum: 255
+2023/10/05 17:15:38 server get message seqnum255 from client: 1
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 255
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 255 with curacknum: 254 withrightwindowside: 255
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum255
+2023/10/05 17:15:38 1: i get seqnum: 255 curleft:255
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 255
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 3resend message: [Data 3 237 51932 14]
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum237
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 237
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum237
+2023/10/05 17:15:38 3: i get seqnum: 237 curleft:237
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum238
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 238 with cureadsqenum: 237 and pqreadtopseqnum: 238
+2023/10/05 17:15:38 server get message seqnum238 from client: 3
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 238
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum238
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 238 with curacknum: 236 withrightwindowside: 237
+2023/10/05 17:15:38 3: i get seqnum: 238 curleft:238
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum237
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum255
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum237
+2023/10/05 17:15:38 server receive ack message with seqnum: 237 and client num: 3
+2023/10/05 17:15:38 server receive ack message with seqnum: 255 and client num: 1
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum255
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 256
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum21
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 238
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 256 with cureadsqenum: 255 and pqreadtopseqnum: 256
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum256
+2023/10/05 17:15:38 server get message seqnum256 from client: 1
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum238
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 256 with curacknum: 255 withrightwindowside: 256
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum22
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum256
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 256
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 22 with cureadsqenum: 21 and pqreadtopseqnum: 22
+2023/10/05 17:15:38 1: i get seqnum: 256 curleft:256
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 22
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum256
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum22
+2023/10/05 17:15:38 2: i get seqnum: 22 curleft:22
+2023/10/05 17:15:38 server receive ack message with seqnum: 238 and client num: 3
+2023/10/05 17:15:38 server get message seqnum22 from client: 2
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum238
+2023/10/05 17:15:38 server on connid: 2 : I have  curwriteseq: 22 with curacknum: 20 withrightwindowside: 21
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum239
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 239 with cureadsqenum: 238 and pqreadtopseqnum: 239
+2023/10/05 17:15:38 server get message seqnum239 from client: 3
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum256
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 239
+2023/10/05 17:15:38 server receive ack message with seqnum: 256 and client num: 1
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 239 with curacknum: 238 withrightwindowside: 239
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum239
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 239
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum257
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 257 with cureadsqenum: 256 and pqreadtopseqnum: 257
+2023/10/05 17:15:38 3: i get seqnum: 239 curleft:239
+2023/10/05 17:15:38 server get message seqnum257 from client: 1
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 257
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 257 with curacknum: 256 withrightwindowside: 257
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum257
+2023/10/05 17:15:38 1: i get seqnum: 257 curleft:257
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 257
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum257
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum258
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 258 with cureadsqenum: 257 and pqreadtopseqnum: 258
+2023/10/05 17:15:38 server get message seqnum258 from client: 1
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 258 with curacknum: 256 withrightwindowside: 257
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 258
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum258
+2023/10/05 17:15:38 1: i get seqnum: 258 curleft:258
+==================
+WARNING: DATA RACE
+Write at 0x00c0001a0000 by goroutine 45:
+  github.com/cmu440/lsp.(*Queue).Enqueue()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/queue.go:12 +0x754
+  github.com/cmu440/lsp.(*server).Write()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/server_impl.go:624 +0x584
+  github.com/cmu440/lsp.(*testSystem).runServer()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/lsp1_test.go:113 +0x1ac
+  github.com/cmu440/lsp.(*testSystem).runTest.func1()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/lsp1_test.go:173 +0x34
+
+Previous read at 0x00c0001a0000 by goroutine 8:
+  github.com/cmu440/lsp.(*Queue).IsEmpty()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/queue.go:32 +0x214
+  github.com/cmu440/lsp.(*server).managePendingMessageQueueOps()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/server_impl.go:44 +0x200
+  github.com/cmu440/lsp.NewServer.func1()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/server_impl.go:574 +0x34
+
+Goroutine 45 (running) created at:
+  github.com/cmu440/lsp.(*testSystem).runTest()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/lsp1_test.go:173 +0x268
+  github.com/cmu440/lsp.TestRobust2()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/lsp1_test.go:314 +0x120
+  testing.tRunner()
+      /usr/local/go/src/testing/testing.go:1595 +0x194
+  testing.(*T).Run.func1()
+      /usr/local/go/src/testing/testing.go:1648 +0x40
+
+Goroutine 8 (running) created at:
+  github.com/cmu440/lsp.NewServer()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/server_impl.go:574 +0x9e0
+  github.com/cmu440/lsp.newTestSystem()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/lsp1_test.go:72 +0x1b4
+  github.com/cmu440/lsp.TestRobust2()
+      /Users/admin/15640/440-p1-f23-111/src/github.com/cmu440/lsp/lsp1_test.go:310 +0x98
+  testing.tRunner()
+      /usr/local/go/src/testing/testing.go:1595 +0x194
+  testing.(*T).Run.func1()
+      /usr/local/go/src/testing/testing.go:1648 +0x40
+==================
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum21
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum239
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum21
+2023/10/05 17:15:38 server receive ack message with seqnum: 21 and client num: 2
+2023/10/05 17:15:38 server receive ack message with seqnum: 239 and client num: 3
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum239
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server finished writing to client: 2with type: 1 and seqnun: 22
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum22
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 2resend message: [Data 2 23 52141 74]
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum23
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 23 with cureadsqenum: 22 and pqreadtopseqnum: 23
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 23
+2023/10/05 17:15:38 server get message seqnum23 from client: 2
+2023/10/05 17:15:38 server on connid: 2 : I have  curwriteseq: 23 with curacknum: 21 withrightwindowside: 22
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 3resend message: [Data 3 240 50648 29]
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum240
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 240 with cureadsqenum: 239 and pqreadtopseqnum: 240
+2023/10/05 17:15:38 server get message seqnum240 from client: 3
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 240
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 240 with curacknum: 239 withrightwindowside: 240
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum240
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 240
+2023/10/05 17:15:38 3: i get seqnum: 240 curleft:240
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum22
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum257
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum257
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum240
+2023/10/05 17:15:38 server receive ack message with seqnum: 257 and client num: 1
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum240
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 258
+2023/10/05 17:15:38 server receive ack message with seqnum: 240 and client num: 3
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum258
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum241
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 241
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 241 with cureadsqenum: 240 and pqreadtopseqnum: 241
+2023/10/05 17:15:38 server get message seqnum241 from client: 3
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 241 with curacknum: 240 withrightwindowside: 241
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum258
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 241
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum241
+2023/10/05 17:15:38 3: i get seqnum: 241 curleft:241
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 259
+2023/10/05 17:15:38 server receive ack message with seqnum: 258 and client num: 1
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 259 with cureadsqenum: 258 and pqreadtopseqnum: 259
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum259
+2023/10/05 17:15:38 server get message seqnum259 from client: 1
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum259
+2023/10/05 17:15:38 1: i get seqnum: 259 curleft:259
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 259 with curacknum: 258 withrightwindowside: 259
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 259
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 2resend message: [Data 2 23 52141 74]
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum23
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 23
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum23
+2023/10/05 17:15:38 2: i get seqnum: 23 curleft:23
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum22
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum22
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum259
+2023/10/05 17:15:38 server receive ack message with seqnum: 22 and client num: 2
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server finished writing to client: 2with type: 1 and seqnun: 23
+2023/10/05 17:15:38 client 2 do get message with msgtype1 with seqnum23
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum259
+2023/10/05 17:15:38 server receive ack message with seqnum: 259 and client num: 1
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 24 with cureadsqenum: 23 and pqreadtopseqnum: 24
+2023/10/05 17:15:38 server get message seqnum24 from client: 2
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum24
+2023/10/05 17:15:38 server on connid: 2 : I have  curwriteseq: 24 with curacknum: 22 withrightwindowside: 23
+2023/10/05 17:15:38 2: i get seqnum: 24 curleft:24
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum24
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 24
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum260
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 260 with cureadsqenum: 259 and pqreadtopseqnum: 260
+2023/10/05 17:15:38 server get message seqnum260 from client: 1
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 260
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 260 with curacknum: 259 withrightwindowside: 260
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum260
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 260
+2023/10/05 17:15:38 1: i get seqnum: 260 curleft:260
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum260
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum260
+2023/10/05 17:15:38 server receive ack message with seqnum: 260 and client num: 1
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum261
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 261 with cureadsqenum: 260 and pqreadtopseqnum: 261
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 261
+2023/10/05 17:15:38 server get message seqnum261 from client: 1
+2023/10/05 17:15:38 server on connid: 1 : I have  curwriteseq: 261 with curacknum: 260 withrightwindowside: 261
+2023/10/05 17:15:38 server finished writing to client: 1with type: 1 and seqnun: 261
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum261
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 1resend message: [Data 1 261 50627 49]
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:38 server resend!!!!
+2023/10/05 17:15:38 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:38 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype1 with seqnum241
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum261
+2023/10/05 17:15:38 server receive ack message with seqnum: 261 and client num: 1
+2023/10/05 17:15:38 client 1 do get message with msgtype1 with seqnum261
+2023/10/05 17:15:38 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum241
+2023/10/05 17:15:38 server receive ack message with seqnum: 241 and client num: 3
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client resend!!!!
+2023/10/05 17:15:38 client: 3resend message: [Data 3 242 50639 99]
+2023/10/05 17:15:38 server do get message with msgtype1 with seqnum242
+2023/10/05 17:15:38 In msgData: server get messgae seqnum: 242 with cureadsqenum: 241 and pqreadtopseqnum: 242
+2023/10/05 17:15:38 server finished writing to client: 3with type: 2 and seqnun: 242
+2023/10/05 17:15:38 server get message seqnum242 from client: 3
+2023/10/05 17:15:38 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:38 client 3 do get message with msgtype2 with seqnum242
+2023/10/05 17:15:38 3: i get seqnum: 242 curleft:242
+2023/10/05 17:15:38 server on connid: 3 : I have  curwriteseq: 242 with curacknum: 241 withrightwindowside: 242
+2023/10/05 17:15:38 server finished writing to client: 3with type: 1 and seqnun: 242
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client: 1resend message: [Data 1 261 50627 49]
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum261
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 261
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum23
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum242
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum23
+2023/10/05 17:15:39 server receive ack message with seqnum: 23 and client num: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 24
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum243
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 243 with cureadsqenum: 242 and pqreadtopseqnum: 243
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum24
+2023/10/05 17:15:39 server get message seqnum243 from client: 3
+2023/10/05 17:15:39 server on connid: 3 : I have  curwriteseq: 243 with curacknum: 241 withrightwindowside: 242
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 243
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum243
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum24
+2023/10/05 17:15:39 server receive ack message with seqnum: 24 and client num: 2
+2023/10/05 17:15:39 3: i get seqnum: 243 curleft:243
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 2resend message: [Data 2 25 53161 90]
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum25
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 25 with cureadsqenum: 24 and pqreadtopseqnum: 25
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server get message seqnum25 from client: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 25
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 25 with curacknum: 24 withrightwindowside: 25
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum25
+2023/10/05 17:15:39 2: i get seqnum: 25 curleft:25
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 25
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum25
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum25
+2023/10/05 17:15:39 server receive ack message with seqnum: 25 and client num: 2
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum26
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 26 with cureadsqenum: 25 and pqreadtopseqnum: 26
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 26
+2023/10/05 17:15:39 server get message seqnum26 from client: 2
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 26 with curacknum: 25 withrightwindowside: 26
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 26
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum26
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum26
+2023/10/05 17:15:39 server receive ack message with seqnum: 26 and client num: 2
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client: 1resend message: [Data 1 261 50627 49]
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum261
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum242
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 261
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum242
+2023/10/05 17:15:39 server receive ack message with seqnum: 242 and client num: 3
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum261
+2023/10/05 17:15:39 1: i get seqnum: 261 curleft:261
+2023/10/05 17:15:39 server finished writing to client: 3with type: 1 and seqnun: 243
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum243
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum262
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 262 with cureadsqenum: 261 and pqreadtopseqnum: 262
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum243
+2023/10/05 17:15:39 server receive ack message with seqnum: 243 and client num: 3
+2023/10/05 17:15:39 server get message seqnum262 from client: 1
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 262
+2023/10/05 17:15:39 server on connid: 1 : I have  curwriteseq: 262 with curacknum: 261 withrightwindowside: 262
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum262
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum244
+2023/10/05 17:15:39 1: i get seqnum: 262 curleft:262
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 244 with cureadsqenum: 243 and pqreadtopseqnum: 244
+2023/10/05 17:15:39 server finished writing to client: 1with type: 1 and seqnun: 262
+2023/10/05 17:15:39 server get message seqnum244 from client: 3
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 244
+2023/10/05 17:15:39 server on connid: 3 : I have  curwriteseq: 244 with curacknum: 243 withrightwindowside: 244
+2023/10/05 17:15:39 client 1 do get message with msgtype1 with seqnum262
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum244
+2023/10/05 17:15:39 3: i get seqnum: 244 curleft:244
+2023/10/05 17:15:39 server finished writing to client: 3with type: 1 and seqnun: 244
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum244
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum263
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 263 with cureadsqenum: 262 and pqreadtopseqnum: 263
+2023/10/05 17:15:39 server get message seqnum263 from client: 1
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 263
+2023/10/05 17:15:39 server on connid: 1 : I have  curwriteseq: 263 with curacknum: 261 withrightwindowside: 262
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum263
+2023/10/05 17:15:39 1: i get seqnum: 263 curleft:263
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 2resend message: [Data 2 26 65449 9]
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum26
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 26
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 3resend message: [Data 3 245 51660 95]
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum245
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 245 with cureadsqenum: 244 and pqreadtopseqnum: 245
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 245
+2023/10/05 17:15:39 server get message seqnum245 from client: 3
+2023/10/05 17:15:39 server on connid: 3 : I have  curwriteseq: 245 with curacknum: 243 withrightwindowside: 244
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum245
+2023/10/05 17:15:39 3: i get seqnum: 245 curleft:245
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum244
+2023/10/05 17:15:39 client 1 do get message with msgtype1 with seqnum262
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum244
+2023/10/05 17:15:39 server receive ack message with seqnum: 244 and client num: 3
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum262
+2023/10/05 17:15:39 server receive ack message with seqnum: 262 and client num: 1
+2023/10/05 17:15:39 server finished writing to client: 3with type: 1 and seqnun: 245
+2023/10/05 17:15:39 server finished writing to client: 1with type: 1 and seqnun: 263
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum245
+2023/10/05 17:15:39 client 1 do get message with msgtype1 with seqnum263
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum245
+2023/10/05 17:15:39 server receive ack message with seqnum: 245 and client num: 3
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum263
+2023/10/05 17:15:39 server receive ack message with seqnum: 263 and client num: 1
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum246
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 246 with cureadsqenum: 245 and pqreadtopseqnum: 246
+2023/10/05 17:15:39 server get message seqnum246 from client: 3
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum264
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 246
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 264 with cureadsqenum: 263 and pqreadtopseqnum: 264
+2023/10/05 17:15:39 server on connid: 3 : I have  curwriteseq: 246 with curacknum: 245 withrightwindowside: 246
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 264
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum246
+2023/10/05 17:15:39 server get message seqnum264 from client: 1
+2023/10/05 17:15:39 3: i get seqnum: 246 curleft:246
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum264
+2023/10/05 17:15:39 server on connid: 1 : I have  curwriteseq: 264 with curacknum: 263 withrightwindowside: 264
+2023/10/05 17:15:39 server finished writing to client: 3with type: 1 and seqnun: 246
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 1: i get seqnum: 264 curleft:264
+2023/10/05 17:15:39 server finished writing to client: 1with type: 1 and seqnun: 264
+2023/10/05 17:15:39 client: 2resend message: [Data 2 26 65449 9]
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum246
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum247
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 247 with cureadsqenum: 246 and pqreadtopseqnum: 247
+2023/10/05 17:15:39 server get message seqnum247 from client: 3
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 247
+2023/10/05 17:15:39 server on connid: 3 : I have  curwriteseq: 247 with curacknum: 245 withrightwindowside: 246
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 3resend message: [Data 3 247 51664 35]
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 1 do get message with msgtype1 with seqnum264
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 2resend message: [Data 2 26 65449 9]
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum26
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 26
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum26
+2023/10/05 17:15:39 2: i get seqnum: 26 curleft:26
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum27
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 27 with cureadsqenum: 26 and pqreadtopseqnum: 27
+2023/10/05 17:15:39 server get message seqnum27 from client: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 27
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 27 with curacknum: 26 withrightwindowside: 27
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum27
+2023/10/05 17:15:39 2: i get seqnum: 27 curleft:27
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 27
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum27
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum27
+2023/10/05 17:15:39 server receive ack message with seqnum: 27 and client num: 2
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 28 with cureadsqenum: 27 and pqreadtopseqnum: 28
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum28
+2023/10/05 17:15:39 server get message seqnum28 from client: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 28
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 28 with curacknum: 27 withrightwindowside: 28
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum28
+2023/10/05 17:15:39 2: i get seqnum: 28 curleft:28
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 28
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum28
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum29
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 29 with cureadsqenum: 28 and pqreadtopseqnum: 29
+2023/10/05 17:15:39 server get message seqnum29 from client: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 29
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 29 with curacknum: 27 withrightwindowside: 28
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum29
+2023/10/05 17:15:39 2: i get seqnum: 29 curleft:29
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 3resend message: [Data 3 247 51664 35]
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum247
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 247
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum247
+2023/10/05 17:15:39 3: i get seqnum: 247 curleft:247
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client: 1resend message: [Data 1 265 50625 29]
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum28
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 265 with cureadsqenum: 264 and pqreadtopseqnum: 265
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server get message seqnum265 from client: 1
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum265
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum246
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server on connid: 1 : I have  curwriteseq: 265 with curacknum: 263 withrightwindowside: 264
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 265
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum28
+2023/10/05 17:15:39 client 1 do get message with msgtype1 with seqnum264
+2023/10/05 17:15:39 server receive ack message with seqnum: 28 and client num: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 29
+2023/10/05 17:15:39 server receive ack message with seqnum: 246 and client num: 3
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum246
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum29
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum264
+2023/10/05 17:15:39 server receive ack message with seqnum: 264 and client num: 1
+2023/10/05 17:15:39 server finished writing to client: 3with type: 1 and seqnun: 247
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum29
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum247
+2023/10/05 17:15:39 server receive ack message with seqnum: 29 and client num: 2
+2023/10/05 17:15:39 server finished writing to client: 1with type: 1 and seqnun: 265
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum30
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 30 with cureadsqenum: 29 and pqreadtopseqnum: 30
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 30
+2023/10/05 17:15:39 server receive ack message with seqnum: 247 and client num: 3
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum247
+2023/10/05 17:15:39 server get message seqnum30 from client: 2
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 30 with curacknum: 29 withrightwindowside: 30
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum30
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum248
+2023/10/05 17:15:39 2: i get seqnum: 30 curleft:30
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 248 with cureadsqenum: 247 and pqreadtopseqnum: 248
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 30
+2023/10/05 17:15:39 server get message seqnum248 from client: 3
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 248
+2023/10/05 17:15:39 server on connid: 3 : I have  curwriteseq: 248 with curacknum: 247 withrightwindowside: 248
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum248
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum30
+2023/10/05 17:15:39 3: i get seqnum: 248 curleft:248
+2023/10/05 17:15:39 server finished writing to client: 3with type: 1 and seqnun: 248
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum30
+2023/10/05 17:15:39 server receive ack message with seqnum: 30 and client num: 2
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client: 2resend message: [Data 2 31 51111 58]
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client: 1resend message: [Data 1 265 50625 29]
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum31
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 31 with cureadsqenum: 30 and pqreadtopseqnum: 31
+2023/10/05 17:15:39 client 1 do get message with msgtype1 with seqnum265
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum265
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 31
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 265
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum31
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 2: i get seqnum: 31 curleft:31
+2023/10/05 17:15:39 server get message seqnum31 from client: 2
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum265
+2023/10/05 17:15:39 server receive ack message with seqnum: 265 and client num: 1
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 31 with curacknum: 30 withrightwindowside: 31
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 31
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum31
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum31
+2023/10/05 17:15:39 server receive ack message with seqnum: 31 and client num: 2
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum32
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 32 with cureadsqenum: 31 and pqreadtopseqnum: 32
+2023/10/05 17:15:39 server get message seqnum32 from client: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 32
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 32 with curacknum: 31 withrightwindowside: 32
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 32
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum32
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum32
+2023/10/05 17:15:39 server receive ack message with seqnum: 32 and client num: 2
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client: 2resend message: [Data 2 32 52905 21]
+2023/10/05 17:15:39 client: 1resend message: [Data 1 265 50625 29]
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum265
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 265
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server resend!!!!
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 2resend message: [Data 2 32 52905 21]
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client: 1resend message: [Data 1 265 50625 29]
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum248
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum265
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 265
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum248
+2023/10/05 17:15:39 server receive ack message with seqnum: 248 and client num: 3
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum249
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 249 with cureadsqenum: 248 and pqreadtopseqnum: 249
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 249
+2023/10/05 17:15:39 server get message seqnum249 from client: 3
+2023/10/05 17:15:39 server on connid: 3 : I have  curwriteseq: 249 with curacknum: 248 withrightwindowside: 249
+2023/10/05 17:15:39 server finished writing to client: 3with type: 1 and seqnun: 249
+2023/10/05 17:15:39 client 3 do get message with msgtype1 with seqnum249
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum249
+2023/10/05 17:15:39 server receive ack message with seqnum: 249 and client num: 3
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 3resend message: [Data 3 249 52429 42]
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum249
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 249
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum249
+2023/10/05 17:15:39 3: i get seqnum: 249 curleft:249
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client: 2resend message: [Data 2 32 52905 21]
+2023/10/05 17:15:39 client: 1resend message: [Data 1 265 50625 29]
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum32
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 32
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum32
+2023/10/05 17:15:39 2: i get seqnum: 32 curleft:32
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum33
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 33 with cureadsqenum: 32 and pqreadtopseqnum: 33
+2023/10/05 17:15:39 server get message seqnum33 from client: 2
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 33
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 33 with curacknum: 32 withrightwindowside: 33
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 33
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum33
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum33
+2023/10/05 17:15:39 server receive ack message with seqnum: 33 and client num: 2
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 1resend message: [Data 1 265 50625 29]
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client: 2resend message: [Data 2 33 52132 64]
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum33
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 33
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum33
+2023/10/05 17:15:39 2: i get seqnum: 33 curleft:33
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum34
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 34 with cureadsqenum: 33 and pqreadtopseqnum: 34
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 34
+2023/10/05 17:15:39 server get message seqnum34 from client: 2
+2023/10/05 17:15:39 server on connid: 2 : I have  curwriteseq: 34 with curacknum: 33 withrightwindowside: 34
+2023/10/05 17:15:39 server finished writing to client: 2with type: 1 and seqnun: 34
+2023/10/05 17:15:39 client 2 do get message with msgtype1 with seqnum34
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum34
+2023/10/05 17:15:39 server receive ack message with seqnum: 34 and client num: 2
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client: 2resend message: [Data 2 34 52132 54]
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum34
+2023/10/05 17:15:39 client: 1resend message: [Data 1 265 50625 29]
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 34
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum34
+2023/10/05 17:15:39 2: i get seqnum: 34 curleft:34
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum265
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 265
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum265
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 1: i get seqnum: 265 curleft:265
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client resend!!!!
+2023/10/05 17:15:39 client: 1resend message: [Data 1 266 52156 63]
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype1 with seqnum266
+2023/10/05 17:15:39 In msgData: server get messgae seqnum: 266 with cureadsqenum: 265 and pqreadtopseqnum: 266
+2023/10/05 17:15:39 server get message seqnum266 from client: 1
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 266
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server on connid: 1 : I have  curwriteseq: 266 with curacknum: 265 withrightwindowside: 266
+2023/10/05 17:15:39 server finished writing to client: 2with type: 2 and seqnun: 0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 1 and seqnun: 266
+2023/10/05 17:15:39 server finished writing to client: 3with type: 2 and seqnun: 0
+2023/10/05 17:15:39 client 2 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum266
+2023/10/05 17:15:39 client 3 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server finished writing to client: 1with type: 2 and seqnun: 0
+2023/10/05 17:15:39 1: i get seqnum: 266 curleft:266
+2023/10/05 17:15:39 client 1 do get message with msgtype1 with seqnum266
+2023/10/05 17:15:39 client 1 do get message with msgtype2 with seqnum0
+2023/10/05 17:15:39 server do get message with msgtype2 with seqnum266
+2023/10/05 17:15:39 server receive ack message with seqnum: 266 and client num: 1
+--- FAIL: TestRobust2 (0.98s)
+    lsp1_test.go:80: Started server on port 51519.
+    lsp1_test.go:93: Started 3 clients.
+    lsp1_test.go:139: Client 3 wrote message 13 (1 of 15).
+    lsp1_test.go:139: Client 2 wrote message 91 (1 of 15).
+    lsp1_test.go:139: Client 1 wrote message 94 (1 of 15).
+    lsp1_test.go:110: Server read message 94 from client 1.
+    lsp1_test.go:112: Server writing 94.
+    lsp1_test.go:110: Server read message 13 from client 3.
+    lsp1_test.go:112: Server writing 13.
+    lsp1_test.go:151: Client 1 read message 94 (1 of 15).
+    lsp1_test.go:139: Client 1 wrote message 10 (2 of 15).
+    lsp1_test.go:151: Client 3 read message 13 (1 of 15).
+    lsp1_test.go:139: Client 3 wrote message 98 (2 of 15).
+    lsp1_test.go:110: Server read message 10 from client 1.
+    lsp1_test.go:112: Server writing 10.
+    lsp1_test.go:110: Server read message 98 from client 3.
+    lsp1_test.go:112: Server writing 98.
+    lsp1_test.go:151: Client 3 read message 98 (2 of 15).
+    lsp1_test.go:139: Client 3 wrote message 14 (3 of 15).
+    lsp1_test.go:151: Client 1 read message 10 (2 of 15).
+    lsp1_test.go:139: Client 1 wrote message 72 (3 of 15).
+    lsp1_test.go:110: Server read message 72 from client 1.
+    lsp1_test.go:112: Server writing 72.
+    lsp1_test.go:110: Server read message 91 from client 2.
+    lsp1_test.go:112: Server writing 91.
+    lsp1_test.go:151: Client 2 read message 91 (1 of 15).
+    lsp1_test.go:139: Client 2 wrote message 100 (2 of 15).
+    lsp1_test.go:110: Server read message 100 from client 2.
+    lsp1_test.go:112: Server writing 100.
+    lsp1_test.go:110: Server read message 14 from client 3.
+    lsp1_test.go:112: Server writing 14.
+    lsp1_test.go:151: Client 3 read message 14 (3 of 15).
+    lsp1_test.go:139: Client 3 wrote message 52 (4 of 15).
+    lsp1_test.go:151: Client 1 read message 72 (3 of 15).
+    lsp1_test.go:139: Client 1 wrote message 64 (4 of 15).
+    lsp1_test.go:110: Server read message 64 from client 1.
+    lsp1_test.go:112: Server writing 64.
+    lsp1_test.go:110: Server read message 52 from client 3.
+    lsp1_test.go:112: Server writing 52.
+    lsp1_test.go:151: Client 1 read message 64 (4 of 15).
+    lsp1_test.go:139: Client 1 wrote message 16 (5 of 15).
+    lsp1_test.go:151: Client 2 read message 100 (2 of 15).
+    lsp1_test.go:139: Client 2 wrote message 45 (3 of 15).
+    lsp1_test.go:110: Server read message 16 from client 1.
+    lsp1_test.go:112: Server writing 16.
+    lsp1_test.go:151: Client 3 read message 52 (4 of 15).
+    lsp1_test.go:139: Client 3 wrote message 25 (5 of 15).
+    lsp1_test.go:151: Client 1 read message 16 (5 of 15).
+    lsp1_test.go:110: Server read message 45 from client 2.
+    lsp1_test.go:112: Server writing 45.
+    lsp1_test.go:139: Client 1 wrote message 53 (6 of 15).
+    lsp1_test.go:110: Server read message 25 from client 3.
+    lsp1_test.go:112: Server writing 25.
+    lsp1_test.go:110: Server read message 53 from client 1.
+    lsp1_test.go:112: Server writing 53.
+    lsp1_test.go:151: Client 1 read message 53 (6 of 15).
+    lsp1_test.go:139: Client 1 wrote message 22 (7 of 15).
+    lsp1_test.go:110: Server read message 22 from client 1.
+    lsp1_test.go:112: Server writing 22.
+    lsp1_test.go:151: Client 3 read message 25 (5 of 15).
+    lsp1_test.go:139: Client 3 wrote message 29 (6 of 15).
+    lsp1_test.go:151: Client 2 read message 45 (3 of 15).
+    lsp1_test.go:139: Client 2 wrote message 74 (4 of 15).
+    lsp1_test.go:110: Server read message 74 from client 2.
+    lsp1_test.go:112: Server writing 74.
+    lsp1_test.go:110: Server read message 29 from client 3.
+    lsp1_test.go:112: Server writing 29.
+    lsp1_test.go:151: Client 3 read message 29 (6 of 15).
+    lsp1_test.go:139: Client 3 wrote message 55 (7 of 15).
+    lsp1_test.go:151: Client 1 read message 22 (7 of 15).
+    lsp1_test.go:139: Client 1 wrote message 102 (8 of 15).
+    lsp1_test.go:110: Server read message 55 from client 3.
+    lsp1_test.go:112: Server writing 55.
+    lsp1_test.go:110: Server read message 102 from client 1.
+    lsp1_test.go:112: Server writing 102.
+    lsp1_test.go:151: Client 1 read message 102 (8 of 15).
+    lsp1_test.go:139: Client 1 wrote message 10 (9 of 15).
+    lsp1_test.go:151: Client 2 read message 74 (4 of 15).
+    lsp1_test.go:139: Client 2 wrote message 60 (5 of 15).
+    lsp1_test.go:110: Server read message 60 from client 2.
+    lsp1_test.go:112: Server writing 60.
+    lsp1_test.go:110: Server read message 10 from client 1.
+    lsp1_test.go:112: Server writing 10.
+    lsp1_test.go:151: Client 1 read message 10 (9 of 15).
+    lsp1_test.go:139: Client 1 wrote message 49 (10 of 15).
+    lsp1_test.go:110: Server read message 49 from client 1.
+    lsp1_test.go:112: Server writing 49.
+    lsp1_test.go:151: Client 1 read message 49 (10 of 15).
+    lsp1_test.go:139: Client 1 wrote message 33 (11 of 15).
+    lsp1_test.go:151: Client 3 read message 55 (7 of 15).
+    lsp1_test.go:139: Client 3 wrote message 99 (8 of 15).
+    lsp1_test.go:110: Server read message 99 from client 3.
+    lsp1_test.go:112: Server writing 99.
+    lsp1_test.go:151: Client 3 read message 99 (8 of 15).
+    lsp1_test.go:139: Client 3 wrote message 92 (9 of 15).
+    lsp1_test.go:110: Server read message 92 from client 3.
+    lsp1_test.go:112: Server writing 92.
+    lsp1_test.go:151: Client 2 read message 60 (5 of 15).
+    lsp1_test.go:139: Client 2 wrote message 90 (6 of 15).
+    lsp1_test.go:110: Server read message 90 from client 2.
+    lsp1_test.go:112: Server writing 90.
+    lsp1_test.go:151: Client 2 read message 90 (6 of 15).
+    lsp1_test.go:139: Client 2 wrote message 9 (7 of 15).
+    lsp1_test.go:110: Server read message 9 from client 2.
+    lsp1_test.go:112: Server writing 9.
+    lsp1_test.go:151: Client 2 read message 9 (7 of 15).
+    lsp1_test.go:139: Client 2 wrote message 63 (8 of 15).
+    lsp1_test.go:151: Client 3 read message 92 (9 of 15).
+    lsp1_test.go:139: Client 3 wrote message 98 (10 of 15).
+    lsp1_test.go:110: Server read message 33 from client 1.
+    lsp1_test.go:112: Server writing 33.
+    lsp1_test.go:110: Server read message 98 from client 3.
+    lsp1_test.go:112: Server writing 98.
+    lsp1_test.go:151: Client 1 read message 33 (11 of 15).
+    lsp1_test.go:139: Client 1 wrote message 102 (12 of 15).
+    lsp1_test.go:151: Client 3 read message 98 (10 of 15).
+    lsp1_test.go:139: Client 3 wrote message 95 (11 of 15).
+    lsp1_test.go:110: Server read message 102 from client 1.
+    lsp1_test.go:112: Server writing 102.
+    lsp1_test.go:110: Server read message 95 from client 3.
+    lsp1_test.go:112: Server writing 95.
+    lsp1_test.go:151: Client 3 read message 95 (11 of 15).
+    lsp1_test.go:151: Client 1 read message 102 (12 of 15).
+    lsp1_test.go:139: Client 3 wrote message 55 (12 of 15).
+    lsp1_test.go:139: Client 1 wrote message 108 (13 of 15).
+    lsp1_test.go:110: Server read message 55 from client 3.
+    lsp1_test.go:112: Server writing 55.
+    lsp1_test.go:110: Server read message 108 from client 1.
+    lsp1_test.go:112: Server writing 108.
+    lsp1_test.go:151: Client 3 read message 55 (12 of 15).
+    lsp1_test.go:139: Client 3 wrote message 35 (13 of 15).
+    lsp1_test.go:110: Server read message 35 from client 3.
+    lsp1_test.go:112: Server writing 35.
+    lsp1_test.go:151: Client 1 read message 108 (13 of 15).
+    lsp1_test.go:139: Client 1 wrote message 29 (14 of 15).
+    lsp1_test.go:110: Server read message 63 from client 2.
+    lsp1_test.go:112: Server writing 63.
+    lsp1_test.go:151: Client 2 read message 63 (8 of 15).
+    lsp1_test.go:139: Client 2 wrote message 89 (9 of 15).
+    lsp1_test.go:110: Server read message 89 from client 2.
+    lsp1_test.go:112: Server writing 89.
+    lsp1_test.go:151: Client 2 read message 89 (9 of 15).
+    lsp1_test.go:139: Client 2 wrote message 99 (10 of 15).
+    lsp1_test.go:110: Server read message 99 from client 2.
+    lsp1_test.go:112: Server writing 99.
+    lsp1_test.go:110: Server read message 29 from client 1.
+    lsp1_test.go:112: Server writing 29.
+    lsp1_test.go:151: Client 2 read message 99 (10 of 15).
+    lsp1_test.go:139: Client 2 wrote message 77 (11 of 15).
+    lsp1_test.go:151: Client 3 read message 35 (13 of 15).
+    lsp1_test.go:139: Client 3 wrote message 80 (14 of 15).
+    lsp1_test.go:110: Server read message 77 from client 2.
+    lsp1_test.go:112: Server writing 77.
+    lsp1_test.go:110: Server read message 80 from client 3.
+    lsp1_test.go:112: Server writing 80.
+    lsp1_test.go:151: Client 2 read message 77 (11 of 15).
+    lsp1_test.go:139: Client 2 wrote message 58 (12 of 15).
+    lsp1_test.go:151: Client 1 read message 29 (14 of 15).
+    lsp1_test.go:110: Server read message 58 from client 2.
+    lsp1_test.go:112: Server writing 58.
+    lsp1_test.go:139: Client 1 wrote message 63 (15 of 15).
+    lsp1_test.go:151: Client 2 read message 58 (12 of 15).
+    lsp1_test.go:139: Client 2 wrote message 21 (13 of 15).
+    lsp1_test.go:110: Server read message 21 from client 2.
+    lsp1_test.go:112: Server writing 21.
+    lsp1_test.go:151: Client 2 read message 21 (13 of 15).
+    lsp1_test.go:139: Client 2 wrote message 64 (14 of 15).
+    lsp1_test.go:151: Client 3 read message 80 (14 of 15).
+    lsp1_test.go:139: Client 3 wrote message 42 (15 of 15).
+    lsp1_test.go:110: Server read message 42 from client 3.
+    lsp1_test.go:112: Server writing 42.
+    lsp1_test.go:151: Client 3 read message 42 (15 of 15).
+    lsp1_test.go:161: Client 3 completed 15 messages
+    lsp1_test.go:163: Client shutting down...
+    lsp1_test.go:110: Server read message 64 from client 2.
+    lsp1_test.go:112: Server writing 64.
+    lsp1_test.go:151: Client 2 read message 64 (14 of 15).
+    lsp1_test.go:139: Client 2 wrote message 54 (15 of 15).
+    lsp1_test.go:110: Server read message 54 from client 2.
+    lsp1_test.go:112: Server writing 54.
+    lsp1_test.go:151: Client 2 read message 54 (15 of 15).
+    lsp1_test.go:161: Client 2 completed 15 messages
+    lsp1_test.go:163: Client shutting down...
+    lsp1_test.go:110: Server read message 63 from client 1.
+    lsp1_test.go:112: Server writing 63.
+    lsp1_test.go:151: Client 1 read message 63 (15 of 15).
+    lsp1_test.go:161: Client 1 completed 15 messages
+    lsp1_test.go:163: Client shutting down...
+    testing.go:1465: race detected during execution of test
+FAIL
+exit status 1
+FAIL	github.com/cmu440/lsp	1.126s
